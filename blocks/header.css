@@ -1,0 +1,92 @@
+.header{
+    background-color: #FFFFFF;
+    background-image: url(../images/background_header.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    min-height: 720px;   
+    max-height: 800px;   
+    position: relative; 
+    box-sizing: border-box;
+    padding-top: 30px;
+    
+}
+.header__title{
+    max-width: 729px;
+    margin-top: 202px;
+    margin-left: 80px;
+    margin-bottom: 28px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.header__span-accent{
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2f80ed;
+    display: block;
+    margin: 0;
+    border: 0;
+}
+.header__description{
+    font-family: 'Noto serif', 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    max-width: 683px;
+    padding-left: 80px;
+}
+.header__image{
+    max-width: 646px;
+    max-height: 568px;
+    right: 5px;
+    top: 124px;
+    position: absolute;
+    z-index: auto;
+}
+.header__footer{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    font-family: "inter" "arial" sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.header__paragraph{
+    margin: 0;
+    font-family: "Inter" "Arial" sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: #6f6f6f;
+}
+.header__address{
+    color:#6f6f6f;
+    font-family: "Inter" "Arial" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
