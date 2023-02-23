@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+In order to improve the project, I would add links to the Menu page with pictures of the items for sale. 

@@ -4,20 +4,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh; 
-    min-height: 720px;   
-    max-height: 800px;   
-    position: relative; 
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    position: relative;
     box-sizing: border-box;
     padding-top: 30px;
-    
+
 }
 .header__title{
     max-width: 729px;
     margin-top: 202px;
     margin-left: 80px;
     margin-bottom: 28px;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'inter', 'arial', sans-serif;
     font-size: 60px;
     line-height: 72px;
     font-weight: 500;
@@ -62,7 +62,7 @@
     position: absolute;
     bottom: 40px;
     left: 0;
-    font-family: "inter" "arial" sans-serif;
+    font-family: 'inter', 'arial', sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
@@ -75,7 +75,7 @@
 }
 .header__paragraph{
     margin: 0;
-    font-family: "Inter" "Arial" sans-serif;
+    font-family: 'inter', 'arial', sans-serif;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
@@ -84,7 +84,7 @@
 }
 .header__address{
     color:#6f6f6f;
-    font-family: "Inter" "Arial" sans-serif;
+    font-family: 'inter', 'arial', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
