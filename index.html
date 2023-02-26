@@ -111,7 +111,7 @@
             </section>
 
             <section class="reservation" id="book-a-table">
-                <h2 class="reservation__title">Book a table</h2>
+              <h2 class="reservation__title">Book a table</h2>
                 <form class="reservation__form">
                     <fieldset class="form__fieldset">
                         <label for="name" class="form__label">Name*</label>
@@ -126,18 +126,14 @@
                         <label for="email" class="form__label">Your email*</label>
                         <input type="email" class="form__input" placeholder="email@email.com" id="email"  required/>
                     </fieldset>
-
                     <fieldset class="form__fieldset">
                         <button type="submit" class="form__button">Book a table</button>
                     </fieldset>
-
                     <fieldset class="form__fieldset">
-                        <input type="checkbox"
-                        class="form__input form__input_type_checkbox"
-                        name="terms-of-use-checkbox"
-                        id="terms-of-use-checkbox"
-                        required/>
-                        <label for="terms-of-use-checkbox" class="form__label form__label_checkbox">I agree with the terms of use</label>
+                        <label class="form__label form__label_type_checkbox">
+                        <input class="form__checkbox" type="checkbox" name="terms-of-use-checkbox"
+                        id="terms-of-use-checkbox" required/>
+                        I agree with the terms of use</label>
                     </fieldset>
                 </form>
             </section>
