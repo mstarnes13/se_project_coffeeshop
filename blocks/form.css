@@ -1,91 +1,72 @@
-.reservation{
-    background-color: #d9e7ff;
-    background-image: url(../images/background_reservation.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
-}
-.reservation__title{
-    text-align: center;
-    padding-bottom: 80px;
-    font-family: 'inter', 'arial', sans-serif;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    margin-bottom: 0;
-}
 .reservation__form{
-    max-width: 385px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  max-width: 385px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .form__label{
-    font-family: 'inter', 'arial', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
+  font-family: 'inter', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
 }
 .form__input{
-    border-radius: 4px;
-    height: 60px;
-    margin-top: 8px;
-    margin-bottom: 32px;
-    width: 385px;
-    font-family: 'inter', 'arial', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #838383;
+  border-radius: 4px;
+  height: 60px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  width: 385px;
+  font-family: 'inter', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 .form__button{
-    border-radius: 4px;
-    background-color: #2f71e5;
-    color: #ffffff;
-    height: 60px;
-    cursor: pointer;
-    margin-bottom: 32px;
-    font-family: 'inter', 'arial', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    opacity: 100%;
-    transition: opacity 0.3s ease-in-out;
+  border-radius: 4px;
+  background-color: #2f71e5;
+  color: #ffffff;
+  height: 60px;
+  cursor: pointer;
+  margin-bottom: 32px;
+  font-family: 'inter', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 100%;
+  transition: opacity 0.3s ease-in-out;
 }
 .form__button:hover{
-    opacity: 70%;
+  opacity: 70%;
 }
 .form__fieldset{
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: none;
 }
 .form__label_type_checkbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 120px;
-    font-family: "Inter", "arial", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    font-style: normal;
-    color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+  font-family: "Inter", "arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  color: #000000;
 }
 .form__checkbox{
-    margin-right: 12px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    border-radius: 2px;
-  }
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
