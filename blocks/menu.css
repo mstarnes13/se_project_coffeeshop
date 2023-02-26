@@ -36,3 +36,9 @@
     line-height: 30px;
     color: #ffffff;
 }
+.menu__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 100px 0;
+}
