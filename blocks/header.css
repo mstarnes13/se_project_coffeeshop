@@ -41,12 +41,10 @@
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
+    line-height: 30px;
     max-width: 683px;
     padding-left: 80px;
+    margin: 0;
 }
 .header__image{
     max-width: 646px;
@@ -82,7 +80,7 @@
     font-style: normal;
     color: #6f6f6f;
 }
-.header__address{
+.header__paragraph-address{
     color:#6f6f6f;
     font-family: 'inter', 'arial', sans-serif;
     font-size: 16px;

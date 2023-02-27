@@ -1,11 +1,8 @@
 .card{
-  display: flex;
-  flex-wrap: wrap;
-  width: 600px;
-  flex-direction: column;
-  color: #ffffff;
-  padding: 0 40px 20px 32px;
-}
+  max-width: 600px;
+  flex-basis: 45%;
+  color:#ffffff;
+   }
 .card__title{
   margin-bottom: 32px;
   margin-top: 0;
@@ -13,24 +10,35 @@
   font-size: 20px;
   line-height: 30px;
   font-family: 'inter', 'arial', sans-serif;
+  font-size: normal;
+
 
 }
-.card__content{
-  display: flex;
-  flex-direction: column;
-  list-style: none;
+.card__list{
   padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: 100px;
+  margin-bottom: 100px;
 
 }
+
 .card__list-item{
   display: flex;
   font-family: 'Noto serif', "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
-  width: 100%;
-
+  margin-bottom: 16px;
+  font-style: normal;
+  padding: 0;
+  font-weight: normal;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
+
 .card__list-divider{
   border-bottom: 1px solid #ffffff;
   flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
 }
