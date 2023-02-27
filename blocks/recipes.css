@@ -37,8 +37,8 @@
     padding-left: 0;
     list-style: none;
 }
-.recipe__video{
-  margin: 0;
+.recipes__video{
+    margin: 0;
 }
 
 .recipes__iframe{
