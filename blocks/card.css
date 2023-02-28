@@ -2,24 +2,25 @@
   max-width: 600px;
   flex-basis: 45%;
   color:#ffffff;
-   }
+}
+.card:first-of-type{
+  margin: 0 100px 0 0;
+}
+.card:last-of-type{
+  margin: 100px auto 0;
+}
 .card__title{
-  margin-bottom: 32px;
-  margin-top: 0;
+  margin: 0 0 32px 0;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   font-family: 'inter', 'arial', sans-serif;
-  font-size: normal;
+  font-style: normal;
 
 
 }
 .card__list{
   padding: 0;
-  margin: 0;
-  list-style: none;
-  margin-right: 100px;
-  margin-bottom: 100px;
 
 }
 
@@ -28,12 +29,12 @@
   font-family: 'Noto serif', "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
   font-style: normal;
-  padding: 0;
   font-weight: normal;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+}
+.card__list-item:last-of-type{
+  margin: 0;
 }
 
 .card__list-divider{
