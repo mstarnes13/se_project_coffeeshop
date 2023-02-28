@@ -21,6 +21,9 @@
    margin-bottom: 16px;
    color: #ffffff;
 }
+.footer__list-item:last-child{
+  margin-bottom: 0;
+}
 
 .footer__social-heading{
     font-family: 'inter', 'arial', sans-serif;
@@ -30,6 +33,7 @@
     line-height: 20px;
     color: #ffffff;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 .footer__social-link{
     color: #ffffff;

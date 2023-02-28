@@ -40,5 +40,6 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
+  gap: 100px;
 
 }
